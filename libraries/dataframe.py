@@ -11,5 +11,5 @@ import pandas as pd
 # print(var.loc["monday"])
 
     # load files into data frames
-df = pd.read_csv('data.cvs')
-print(df)
+df = pd.read_csv('cvsfile.cvs')
+print(df.to_string())
